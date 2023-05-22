@@ -15,7 +15,7 @@ const App = () => {
                     setExp(eval(exp))
                 }
             }catch (error) {
-                setExp("Not a valid expression");
+                setExp("Error");
               }
            
            

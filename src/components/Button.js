@@ -6,11 +6,11 @@ const Button = ({id,handleClick}) => {
     
     const className = `button button-${id}`
     if (id == "/") {
-        btnId = "btn-div";
+       const  btnId = "btn-div";
     } else if (id == "="){
-        btnId = "equal";
+        const btnId = "equal";
     } else if (id=="+") {
-        btnId = "plus"
+       const  btnId = "plus"
     }else{
         const btnId = `btn-${id}`;
     }

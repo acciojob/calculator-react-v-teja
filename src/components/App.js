@@ -28,7 +28,7 @@ const App = () => {
 
     console.log(exp);
     return (
-        <div className='container'>
+        <div className='container Calculator'>
             <div className='expression' >{exp}</div>
             <div className="button-container">
                 {data.map((key) => (

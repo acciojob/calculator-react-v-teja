@@ -4,15 +4,16 @@ import React from "react";
 
 const Button = ({id,handleClick}) => {
     
-    const className = `button button-${id}`
+    const className = `button button-${id}`;
+    let btnId;
     if (id == "/") {
-       const  btnId = "btn-div";
+        btnId = "btn-div";
     } else if (id == "="){
-        const btnId = "equal";
+        btnId = "equal";
     } else if (id=="+") {
-       const  btnId = "plus"
+       btnId = "plus"
     }else{
-        const btnId = `btn-${id}`;
+     btnId = `btn-${id}`;
     }
    
 
